@@ -19,6 +19,6 @@ def my_fact_function(n):
 #Math.exp returns E raised to the power of x 
 print ('x is: ',math.exp(x))
 print ('n is: ',my_fact_function(n))
-
+print ('result:',math.exp(x)/my_fact_function(n))
 #conclusion of my logic: I have used the function math.exp to calculate the x power n of the formula.
 #I have used the loop to calculate the factorial (n!) of the formula.
