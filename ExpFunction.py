@@ -1,6 +1,4 @@
-x = float(input('Insert the value of x: '))
-n = int(input('Insert the value of n: '))
-
+#This function is used to calculate the factorial starting with 1
 def factorial(n):
     f=1
     if n==0:
@@ -10,6 +8,9 @@ def factorial(n):
             f=f*k
         return f
 
+#This function calculate the x.
+# *Important: The second number of the range indicates the number of terms in the series.
+# If the number is higher, the approximation to the number (e) is greater 
 def exp(x):
     s=0
     for i in range(0,13):
