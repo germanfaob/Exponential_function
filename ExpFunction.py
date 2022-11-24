@@ -9,8 +9,9 @@ def factorial(n):
         return f
 
 #This function calculate the x.
-# *Important: The second number of the range indicates the number of terms in the series.
-# If the number is higher, the approximation to the number (e) is greater 
+#*Important: The second number of the range indicates the number of terms in the series.
+#If the number is higher, the approximation to the number (e) is greater.
+#You can modify the second number of the range to whatever you want to increase or decrease the approximation to (e)
 def exp(x):
     s=0
     for i in range(0,13):
